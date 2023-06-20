@@ -8,6 +8,8 @@ public class DetalleOrden {
     private double precio;
     private double total;
 
+    private double total1;       //sacar despues
+
     public DetalleOrden() {
     }
 
@@ -18,6 +20,7 @@ public class DetalleOrden {
         this.cantidad = cantidad;
         this.precio = precio;
         this.total = total;
+
     }
 
     public Integer getId() {
